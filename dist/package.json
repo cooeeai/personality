@@ -1,0 +1,14 @@
+{
+  "name": "personality",
+  "version": "1.0.0",
+  "description": "Personality insights",
+  "author": "markmo",
+  "private": true,
+  "scripts": {
+    "postinstall": "npm install express"
+  },
+  "dependencies": {
+    "path": "^0.12.7",
+    "serve-static": "^1.11.1"
+  }
+}
