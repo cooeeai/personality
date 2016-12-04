@@ -3,7 +3,7 @@ import VueResource from 'vue-resource';
 import { router } from 'src/main';
 
 const API_BASE = 'https://tombot1.ngrok.io';
-//const API_BASE = 'http://localhost:5555';
+// const API_BASE = 'http://localhost:8080';
 
 Vue.use(VueResource);
 

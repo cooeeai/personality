@@ -15,7 +15,7 @@ module.exports = merge(webpackBase, {
         host: 'localhost',
         port: config.port,
         // Proxy the default webpack dev-server port
-        proxy: 'http://localhost:8080/',
+        proxy: 'http://localhost:8081/',
         notify: false,
         open: false,
         // Let webpack handle the reload

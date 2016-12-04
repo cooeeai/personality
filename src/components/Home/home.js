@@ -18,7 +18,8 @@ export default Vue.extend({
   methods: {
     fetchPersonality() {
       return personalityResource.get({ id: 1234 }).then((response) => {
-        const consumptionPreferences = response.data.consumption_preferences;
+        const json = JSON.parse(response.data);
+        const consumptionPreferences = json.consumption_preferences;
         const purchasingPreferences = consumptionPreferences.filter((p) => {
           return p.consumption_preference_category_id === 'consumption_preferences_shopping';
         })[0].consumption_preferences;
