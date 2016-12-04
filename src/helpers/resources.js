@@ -2,7 +2,8 @@ import Vue from 'vue';
 import VueResource from 'vue-resource';
 import { router } from 'src/main';
 
-const API_BASE = 'http://jsonplaceholder.typicode.com';
+//const API_BASE = 'https://tombot1.ngrok.io';
+const API_BASE = 'http://localhost:5555';
 
 Vue.use(VueResource);
 
@@ -19,4 +20,4 @@ Vue.http.interceptors.push((request, next) => {
   });
 });
 
-export const postsResource = Vue.resource('posts{/id}');
+export const personalityResource = Vue.resource('personality{/id}');
