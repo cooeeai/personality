@@ -4,7 +4,7 @@ import { router } from 'src/main';
 
 // const API_BASE = 'https://tombot1.ngrok.io';
 // const API_BASE = 'http://localhost:8080';
-const API_BASE = 'http://localhost:5555';
+const API_BASE = 'http://aiplatform.host:49161';
 
 Vue.use(VueResource);
 

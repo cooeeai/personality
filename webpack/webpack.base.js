@@ -9,7 +9,8 @@ module.exports = {
 
   output: {
     path: path.resolve(__dirname, '../build'),
-    publicPath: '/',
+    publicPath: '/personality/',
+    assetsPublicPath: '/personality/',
     filename: '[name].[hash].js',
     sourceMapFilename: '[name].[hash].js.map',
     chunkFilename: '[id].chunk.js',
